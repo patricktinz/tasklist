@@ -1,0 +1,29 @@
+*{
+    padding: 0em; margin: 0em;
+}
+.btn{
+    display: inline-block;   /*default*/
+    width: 15rem; 
+    max-width: 49%;
+}
+#tasklist{
+    display: block;
+    width: 30rem;
+    max-width: 100%;
+}
+option[data-prio ="1"]{
+    color: red;
+}
+@media only screen and (max-width: 399px) {
+    option {
+        font-size: 1.25rem;
+    }
+    .btn{
+        width: 100%; 
+        max-width: 100%;
+        padding: 1rem;
+    }
+    #tasklist{
+        width: 100%;
+    }
+}
